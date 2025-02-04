@@ -1,0 +1,16 @@
+{
+  "name": "ffi-rs-ts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+      "build": "sh build_lib.sh",
+      "dev": "bun index.ts",
+      "start": "sh -c 'bun run build && clear && bun run dev'"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
